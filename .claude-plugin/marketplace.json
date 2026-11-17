@@ -1,0 +1,12 @@
+{
+  "name": "pmcro-marketplace-skills",
+  "owner": { "name": "pmcro-marketplace" },
+  "interface": { "displayName": "PMCR-O Marketplace Skills" },
+  "plugins": [
+    {
+      "name": "pmcro",
+      "source": "./plugins/pmcro",
+      "description": "Lifecycle skills with explicit phase → task → step hierarchy. Cycle 0 decomposes goals into Checker-verified constraints."
+    }
+  ]
+}

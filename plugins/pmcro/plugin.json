@@ -1,0 +1,8 @@
+{
+  "name": "pmcro",
+  "version": "0.1.0",
+  "description": "PMCR-O lifecycle skills: orchestrate, plan, make, check, reflect. Phases contain tasks contain steps.",
+  "skills": [
+    "skills/orchestrate"
+  ]
+}

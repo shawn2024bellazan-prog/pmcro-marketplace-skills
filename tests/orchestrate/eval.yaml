@@ -1,0 +1,24 @@
+# Minimal stimuli for orchestrate skill value (baseline vs skilled)
+stimuli:
+  - id: decompose-simple-goal
+    input: |
+      high_level_goal: "Create a .NET MAUI starter app named ContosoMobile"
+    expect:
+      - cycle_0_decomposition
+      - no_domain_execution_in_orchestrate
+      - trail_frame_written
+
+  - id: route-existing-constraint
+    input: |
+      high_level_goal: "Create a .NET MAUI starter app named ContosoMobile"
+      verified_constraints:
+        - id: c1
+          statement: "Scaffold MAUI project ContosoMobile"
+          acceptance: "Project builds with dotnet build"
+    expect:
+      - routes_c1_to_plan
+      - does_not_rewrite_constraint
+
+graders:
+  - type: skill-invocation
+    skill: orchestrate
