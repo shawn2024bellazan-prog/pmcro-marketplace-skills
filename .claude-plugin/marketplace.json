@@ -3,15 +3,22 @@
   "owner": { "name": "pmcro-marketplace" },
   "interface": { "displayName": "PMCR-O Marketplace Skills" },
   "plugins": [
-    {
-      "name": "pmcro",
-      "source": "./plugins/pmcro",
-      "description": "Core lifecycle skills (plan, make, check, reflect) — analog of plugins/dotnet."
-    },
-    {
-      "name": "pmcro-orchestrator",
-      "source": "./plugins/pmcro-orchestrator",
-      "description": "High-level goal specialist (orchestrate, decompose-goal) — analog of plugins/dotnet11."
-    }
+    { "name": "pmcro", "source": "./plugins/pmcro", "description": "Core lifecycle (plan/make/check/reflect) — analog of dotnet" },
+    { "name": "pmcro-orchestrator", "source": "./plugins/pmcro-orchestrator", "description": "High-level goals — analog of dotnet11" },
+    { "name": "pmcro-advanced", "source": "./plugins/pmcro-advanced" },
+    { "name": "pmcro-ai", "source": "./plugins/pmcro-ai" },
+    { "name": "pmcro-aspnetcore", "source": "./plugins/pmcro-aspnetcore" },
+    { "name": "pmcro-blazor", "source": "./plugins/pmcro-blazor" },
+    { "name": "pmcro-data", "source": "./plugins/pmcro-data" },
+    { "name": "pmcro-diag", "source": "./plugins/pmcro-diag" },
+    { "name": "pmcro-experimental", "source": "./plugins/pmcro-experimental" },
+    { "name": "pmcro-maui", "source": "./plugins/pmcro-maui" },
+    { "name": "pmcro-msbuild", "source": "./plugins/pmcro-msbuild" },
+    { "name": "pmcro-nuget", "source": "./plugins/pmcro-nuget" },
+    { "name": "pmcro-template-engine", "source": "./plugins/pmcro-template-engine" },
+    { "name": "pmcro-test", "source": "./plugins/pmcro-test" },
+    { "name": "pmcro-test-migration", "source": "./plugins/pmcro-test-migration" },
+    { "name": "pmcro-upgrade", "source": "./plugins/pmcro-upgrade" },
+    { "name": "pmcro-winforms", "source": "./plugins/pmcro-winforms" }
   ]
 }

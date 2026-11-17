@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-template-engine",
+  "version": "0.1.0",
+  "description": "Template and scaffolding skills under PMCR-O. Analog of plugins/dotnet-template-engine.",
+  "skills": ["./skills/"]
+}

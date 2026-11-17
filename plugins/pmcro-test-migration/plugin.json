@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-test-migration",
+  "version": "0.1.0",
+  "description": "Test migration skills under PMCR-O. Analog of plugins/dotnet-test-migration.",
+  "skills": ["./skills/"]
+}

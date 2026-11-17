@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-aspnetcore",
+  "version": "0.1.0",
+  "description": "ASP.NET Core domain skills under PMCR-O. Analog of plugins/dotnet-aspnetcore.",
+  "skills": ["./skills/"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-nuget",
+  "version": "0.1.0",
+  "description": "Package skills under PMCR-O. Analog of plugins/dotnet-nuget.",
+  "skills": ["./skills/"]
+}

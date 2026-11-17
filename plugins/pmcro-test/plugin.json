@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-test",
+  "version": "0.1.0",
+  "description": "Test-domain skills under PMCR-O. Analog of plugins/dotnet-test.",
+  "skills": ["./skills/"]
+}

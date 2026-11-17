@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-diag",
+  "version": "0.1.0",
+  "description": "Diagnostics and incident skills under PMCR-O. Analog of plugins/dotnet-diag.",
+  "skills": ["./skills/"]
+}

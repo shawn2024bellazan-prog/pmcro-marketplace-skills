@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-msbuild",
+  "version": "0.1.0",
+  "description": "Build-system skills under PMCR-O. Analog of plugins/dotnet-msbuild.",
+  "skills": ["./skills/"]
+}

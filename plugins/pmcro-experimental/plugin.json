@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-experimental",
+  "version": "0.1.0",
+  "description": "Experimental PMCR-O skills. Analog of plugins/dotnet-experimental.",
+  "skills": ["./skills/"]
+}

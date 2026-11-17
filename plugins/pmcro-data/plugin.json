@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-data",
+  "version": "0.1.0",
+  "description": "Data and persistence skills under PMCR-O. Analog of plugins/dotnet-data.",
+  "skills": ["./skills/"]
+}

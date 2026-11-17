@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-upgrade",
+  "version": "0.1.0",
+  "description": "Upgrade and migration skills under PMCR-O. Analog of plugins/dotnet-upgrade.",
+  "skills": ["./skills/"]
+}

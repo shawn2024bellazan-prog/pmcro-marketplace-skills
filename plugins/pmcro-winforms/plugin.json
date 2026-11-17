@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-winforms",
+  "version": "0.1.0",
+  "description": "WinForms domain skills under PMCR-O. Analog of plugins/dotnet-winforms.",
+  "skills": ["./skills/"]
+}

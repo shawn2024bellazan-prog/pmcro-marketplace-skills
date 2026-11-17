@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-ai",
+  "version": "0.1.0",
+  "description": "AI-related PMCR-O skills. Analog of plugins/dotnet-ai.",
+  "skills": ["./skills/"]
+}

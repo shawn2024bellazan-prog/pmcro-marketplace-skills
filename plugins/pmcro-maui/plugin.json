@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-maui",
+  "version": "0.1.0",
+  "description": "MAUI / mobile domain skills under PMCR-O. Analog of plugins/dotnet-maui.",
+  "skills": ["./skills/"]
+}

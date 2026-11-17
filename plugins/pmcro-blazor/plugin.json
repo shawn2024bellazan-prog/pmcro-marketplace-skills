@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-blazor",
+  "version": "0.1.0",
+  "description": "Blazor domain skills under PMCR-O. Analog of plugins/dotnet-blazor.",
+  "skills": ["./skills/"]
+}

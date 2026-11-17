@@ -1,0 +1,5 @@
+{
+  "name": "pmcro-nuget",
+  "version": "0.1.0",
+  "skills": ["./skills/"]
+}

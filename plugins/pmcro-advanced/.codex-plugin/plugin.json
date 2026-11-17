@@ -1,0 +1,6 @@
+{
+  "name": "pmcro-advanced",
+  "version": "0.1.0",
+  "description": "Advanced PMCR-O skills.",
+  "skills": ["./skills/"]
+}
