@@ -1,0 +1,23 @@
+stimuli:
+  - id: admit-and-decompose
+    input: |
+      high_level_goal: "Create a .NET MAUI starter app named ContosoMobile"
+    expect:
+      - admits_goal
+      - invokes_decompose_goal_or_equivalent_cycle0
+      - no_domain_execution
+
+  - id: route-verified
+    input: |
+      high_level_goal: "Create a .NET MAUI starter app named ContosoMobile"
+      verified_constraints:
+        - id: c1
+          statement: "Scaffold MAUI project ContosoMobile"
+          acceptance: "dotnet build succeeds"
+    expect:
+      - routes_to_pmcro_plan
+      - does_not_rewrite_constraint
+
+graders:
+  - type: skill-invocation
+    skill: orchestrate

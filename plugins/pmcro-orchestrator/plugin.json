@@ -1,0 +1,9 @@
+{
+  "name": "pmcro-orchestrator",
+  "version": "0.1.0",
+  "description": "High-level goal specialist plugin (analogous to plugins/dotnet11). Owns admit/route of high_level_goal and the decompose-goal skill. Does not replace core pmcro plan/make/check/reflect.",
+  "skills": [
+    "skills/orchestrate",
+    "skills/decompose-goal"
+  ]
+}

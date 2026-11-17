@@ -1,10 +1,4 @@
 # Skill-vs-baseline experiment (dotnet/skills pattern)
-# Each eval under tests/**/eval.yaml runs twice:
-#   baseline: no skills loaded
-#   skilled:  exactly the one skill under test
-#
-# agent.* evals stay on a separate lane if the runner cannot register custom agents.
-
 name: pmcro-skills
 evals:
   - tests/*/!\(agent.*\)/eval.yaml
@@ -21,4 +15,4 @@ variants:
   skilled:
     environment:
       skills:
-        - plugins/pmcro/skills/${eval.parent}
+        - plugins/${eval.grandparent}/skills/${eval.parent}

@@ -1,8 +1,11 @@
 {
   "name": "pmcro",
   "version": "0.1.0",
-  "description": "PMCR-O lifecycle skills: orchestrate, plan, make, check, reflect. Phases contain tasks contain steps.",
+  "description": "Core PMCR-O lifecycle skills (plan, make, check, reflect). Analogous to plugins/dotnet in dotnet/skills. Does not own high-level goals.",
   "skills": [
-    "skills/orchestrate"
+    "skills/plan",
+    "skills/make",
+    "skills/check",
+    "skills/reflect"
   ]
 }

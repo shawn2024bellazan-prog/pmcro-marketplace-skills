@@ -6,7 +6,12 @@
     {
       "name": "pmcro",
       "source": "./plugins/pmcro",
-      "description": "Lifecycle skills with explicit phase → task → step hierarchy. Cycle 0 decomposes goals into Checker-verified constraints."
+      "description": "Core lifecycle skills (plan, make, check, reflect) — analog of plugins/dotnet."
+    },
+    {
+      "name": "pmcro-orchestrator",
+      "source": "./plugins/pmcro-orchestrator",
+      "description": "High-level goal specialist (orchestrate + decompose-goal) — analog of plugins/dotnet11."
     }
   ]
 }

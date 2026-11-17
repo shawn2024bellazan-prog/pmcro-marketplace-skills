@@ -1,0 +1,12 @@
+stimuli:
+  - id: maui-starter
+    input: |
+      high_level_goal: "Create a .NET MAUI starter app named ContosoMobile"
+    expect:
+      - discrete_constraints
+      - each_has_acceptance
+      - no_domain_execution
+
+graders:
+  - type: skill-invocation
+    skill: decompose-goal
