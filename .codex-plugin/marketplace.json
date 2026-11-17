@@ -1,0 +1,13 @@
+{
+  "name": "pmcro-marketplace-skills",
+  "plugins": [
+    {
+      "name": "pmcro",
+      "source": "./plugins/pmcro"
+    },
+    {
+      "name": "pmcro-orchestrator",
+      "source": "./plugins/pmcro-orchestrator"
+    }
+  ]
+}

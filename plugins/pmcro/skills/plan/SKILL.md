@@ -13,31 +13,26 @@ metadata:
 
 # Plan
 
-## When I am used
+## When to use
 
-- Orchestrator has admitted a cycle and handed off a goal or single constraint.
-- I need a Checker-testable plan before Make runs.
+- Orchestrator admitted a cycle and handed off a goal or single constraint.
+- A Checker-testable plan is required before Make.
 
-## What I own
+## Owns
 
-- PlanFrame: goal, ordered **tasks**, per-task success criteria, out_of_scope
-- Trail append under `plan/` only
+- PlanFrame: goal, ordered tasks, success criteria, out_of_scope
+- Trail frames under `plan/` only
 
-## What I never do
+## Never
 
-- Execute tasks or steps (Make)
+- Execute tasks/steps (Make)
 - Issue verdicts (Check)
-- Decompose high_level_goals (that is `decompose-goal` in pmcro-orchestrator)
+- Decompose high_level_goal (skill `decompose-goal` in pmcro-orchestrator)
 - Invent unregistered capabilities
 
-## Process
+## Steps
 
 1. Load laws, trail, validated resources only.
-2. Name the minimum tasks required for this cycle goal.
-3. For each task, list steps only if the executor needs them (progressive disclosure).
+2. Name the minimum tasks for this cycle goal.
+3. Attach independently checkable success criteria per task.
 4. Write PlanFrame; stop.
-
-## Output
-
-- PlanFrame on trail
-- Every success criterion independently checkable

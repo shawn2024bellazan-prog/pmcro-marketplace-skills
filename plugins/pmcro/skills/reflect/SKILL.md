@@ -2,7 +2,7 @@
 name: reflect
 description: >-
   Read the closed cycle trail, record learning, and may propose a next intent.
-  Does not authorize the next cycle — only Orchestrator does.
+  Does not authorize the next cycle — only Orchestrator (pmcro-orchestrator) does.
 license: MIT
 compatibility: agentskills.io, MAF, PMCR-O
 metadata:
@@ -12,12 +12,12 @@ metadata:
 
 # Reflect
 
-## What I own
+## Owns
 
 - Reflection frame on trail
-- Optional **proposal** for next intent
+- Optional proposal for next intent
 
-## What I never do
+## Never
 
 - Auto-start the next cycle
 - Alter Checker verdicts

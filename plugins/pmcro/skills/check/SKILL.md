@@ -13,12 +13,12 @@ metadata:
 
 # Check
 
-## What I own
+## Owns
 
-- Independent verdict: PASS | LOOP | HALT
-- Evidence tied to acceptance criteria
+- Verdict: PASS | LOOP | HALT
+- Evidence bound to acceptance criteria
 
-## What I never do
+## Never
 
 - Repair or re-make artifacts
-- Accept rehearsal/simulated PASS as verified execution
+- Treat rehearsal/simulated PASS as verified execution

@@ -11,7 +11,7 @@
     {
       "name": "pmcro-orchestrator",
       "source": "./plugins/pmcro-orchestrator",
-      "description": "High-level goal specialist (orchestrate + decompose-goal) — analog of plugins/dotnet11."
+      "description": "High-level goal specialist (orchestrate, decompose-goal) — analog of plugins/dotnet11."
     }
   ]
 }

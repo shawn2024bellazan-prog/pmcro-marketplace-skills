@@ -1,9 +1,9 @@
 ---
 name: decompose-goal
 description: >-
-  Cycle-0 skill: turn one high_level_goal into a discrete, non-overlapping where
-  required, list of constraints with acceptance criteria. Produces a plan-ready
-  artifact that must pass Check. Does not execute domain work.
+  Cycle-0 skill: turn one high_level_goal into discrete constraints with
+  acceptance criteria. Artifact must pass Check before downstream routing.
+  Does not execute domain work.
 license: MIT
 compatibility: agentskills.io, MAF, PMCR-O
 metadata:
@@ -14,31 +14,30 @@ metadata:
 
 # Decompose goal
 
-This skill **is** the decomposition. Orchestrate invokes me; I do not hide inside Orchestrate.
+Orchestrate invokes this skill. This **is** the decomposition.
 
 ## Input
 
 - `high_level_goal`
-- Active laws / constraints inheritance
+- Inherited laws / constraints
 
 ## Output
 
 ```yaml
 constraints:
   - id: c1
-    statement: "..."      # one testable demand
-    acceptance: "..."     # what Check will score
+    statement: "..."
+    acceptance: "..."
     out_of_scope: []
 ```
 
 ## Rules
 
-1. Discrete constraints only — no vague mega-constraints when laws require split.
-2. Each constraint must be routable as its own later cycle.
-3. No domain execution here (no `dotnet new`, no file writes beyond trail/plan artifacts).
-4. Checker must PASS this list before orchestrate routes any constraint downstream.
+1. Discrete, routable constraints only.
+2. Each has an independently checkable acceptance string.
+3. No domain execution (no project scaffolding here).
+4. Checker must PASS the list before orchestrate routes any constraint.
 
 ## Progressive disclosure
 
-- Strong models: this file may be enough.
-- Weak/local models: load `references/decomposition-patterns.md` when present.
+Weak/local models: load `references/decomposition-patterns.md`.

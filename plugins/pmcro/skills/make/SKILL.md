@@ -13,23 +13,23 @@ metadata:
 
 # Make
 
-## When I am used
+## When to use
 
-- A PlanFrame exists for the current cycle and Make is authorized.
+- An approved PlanFrame exists for the current cycle.
 
-## What I own
+## Owns
 
 - Execution of planned tasks and steps
 - Capability invocation (optional provider agent)
 - Make-trail evidence
 
-## What I never do
+## Never
 
 - Change the plan silently
 - Claim success without evidence
-- Issue the cycle verdict (Check only)
+- Issue the cycle verdict
 
 ## Progressive disclosure
 
-- Strong models: follow PlanFrame + this skill.
-- Weak/local models: load task scripts under capability/skill `scripts/` and references as directed by the plan.
+- Strong models: PlanFrame + this skill.
+- Weak/local models: load capability/skill `scripts/` and `references/` as the plan directs.
